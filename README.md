@@ -28,5 +28,25 @@ Identified and resolved blank field extraction anomalies by mapping Splunk’s n
 * Advanced Forensic Query: `index=main sourcetype="WinEventLog:Security" (EventCode=4624 OR EventCode=4625) | table _time, EventCode, user, Logon_Type, Security_ID`
 * Successfully captured and analyzed automated background elevation tasks (`Logon_Type 5` running under `NT AUTHORITY\SYSTEM` with `SID S-1-5-18`).
 
-## Lab Artifacts
-*[Insert your best Splunk dashboard screenshots here]*
+## Lab Artifacts & Verification
+
+### 1. Active Offensive Reconnaissance (Nmap Port Scan)
+Captured live network discovery mappings targeting network boundary points to trigger localized system alerting mechanisms.
+![Kali Linux Nmap Scan](01_kali_nmap_scan_2.jpg)
+
+### 2. Live SIEM Ingestion (Real-Time Dynamic Data Influx)
+Demonstrated real-time query handling as network payload requests targeted active infrastructure zones.
+![Splunk Live Realtime Stream](02_splunk_realtime_stream.png)
+
+### 3. Centralized System Telemetry Analysis (EventCode 1)
+Parsed unstructured text arrays into readable system execution events using specialized Splunk processing fields.
+![Splunk Core System Logs Table](03_splunk_system_logs.jpg)
+
+### 4. Normalized Security Authentication Matrix (EventCode 4624/4625)
+Final engineering artifact tracking administrative execution privileges, verifying field mappings for Logon Type configurations.
+![Splunk Security Authentication Matrix](04_splunk_auth_matrix.jpg)
+<img width="1918" height="736" alt="03_splunk_system_logs" src="https://github.com/user-attachments/assets/b7882d4e-0602-415e-a0cf-f5b462be7ca8" />
+<img width="959" height="371" alt="02_splunk_realtime_stream" src="https://github.com/user-attachments/assets/4641da19-75d8-4547-a01d-a24fda759ae5" />
+<img width="906" height="676" alt="01_kali_nmap_scan" src="https://github.com/user-attachments/assets/5c508806-e61a-40a4-a943-4bd312a0877a" />
+<img width="1918" height="741" alt="04_splunk_auth_matrix" src="https://github.com/user-attachments/assets/ccd3c8f4-5d52-4f65-8c72-9db3f376d8a6" />
+
