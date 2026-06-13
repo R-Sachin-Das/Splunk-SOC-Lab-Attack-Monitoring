@@ -45,8 +45,3 @@ Parsed unstructured text arrays into readable system execution events using spec
 ### 4. Normalized Security Authentication Matrix (EventCode 4624/4625)
 Final engineering artifact tracking administrative execution privileges, verifying field mappings for Logon Type configurations.
 ![Splunk Security Authentication Matrix](04_splunk_auth_matrix.jpg)
-<img width="1918" height="736" alt="03_splunk_system_logs" src="https://github.com/user-attachments/assets/b7882d4e-0602-415e-a0cf-f5b462be7ca8" />
-<img width="959" height="371" alt="02_splunk_realtime_stream" src="https://github.com/user-attachments/assets/4641da19-75d8-4547-a01d-a24fda759ae5" />
-<img width="906" height="676" alt="01_kali_nmap_scan" src="https://github.com/user-attachments/assets/5c508806-e61a-40a4-a943-4bd312a0877a" />
-<img width="1918" height="741" alt="04_splunk_auth_matrix" src="https://github.com/user-attachments/assets/ccd3c8f4-5d52-4f65-8c72-9db3f376d8a6" />
-
