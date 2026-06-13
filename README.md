@@ -32,7 +32,7 @@ Identified and resolved blank field extraction anomalies by mapping Splunk’s n
 
 ### 1. Active Offensive Reconnaissance (Nmap Port Scan)
 Captured live network discovery mappings targeting network boundary points to trigger localized system alerting mechanisms.
-![Kali Linux Nmap Scan](01_kali_nmap_scan_2.jpg)
+![Kali Linux Nmap Scan](01_kali_nmap_scan.jpg)
 
 ### 2. Live SIEM Ingestion (Real-Time Dynamic Data Influx)
 Demonstrated real-time query handling as network payload requests targeted active infrastructure zones.
